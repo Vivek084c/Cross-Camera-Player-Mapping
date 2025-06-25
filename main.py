@@ -10,7 +10,7 @@ video_path = 'data/cam1/camera1_20080409T164100+02.mp4'
 cap = cv2.VideoCapture(video_path)
 
 if not cap.isOpened():
-    print("❌ Failed to open video.")
+    print("Failed to open video.")
     exit()
 
 output_dir = "saved_frames"
@@ -36,7 +36,7 @@ while frame_count < max_frames:
 
     frame_path = os.path.join(frame_dir, f"frame_{frame_id}.jpg")
     cv2.imwrite(frame_path, annotated_frame)
-    print(f"✅ Saved annotated frame: {frame_path}")
+    print(f"Saved annotated frame: {frame_path}")
 
     # Save each player crop from the current frame
     boxes = result.boxes
@@ -50,7 +50,7 @@ while frame_count < max_frames:
                 crop = frame[y1:y2, x1:x2]
                 player_path = os.path.join(frame_dir, f"player_{i+1}.jpg")
                 cv2.imwrite(player_path, crop)
-                print(f"🧍 Saved player crop: {player_path}")
+                print(f"Saved player crop: {player_path}")
 
     frame_count += 1
 
