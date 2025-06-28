@@ -22,7 +22,7 @@ A computer vision system that detects and tracks players across multiple camera 
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/Cross-Camera-Player-Mapping.git
+git clone https://github.com/Vivek084c/Cross-Camera-Player-Mapping
 cd Cross-Camera-Player-Mapping
 ```
 
