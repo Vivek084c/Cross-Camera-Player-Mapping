@@ -1,0 +1,33 @@
+videos:
+  tacticam: "data/inputs/tacticam.mp4"
+  broadcast: "data/inputs/broadcast.mp4"
+  
+output:
+  directory: "data/outputs"
+  save_annotations: True
+  save_crops: True
+  save_lbp: True
+
+visualization:
+  info_panel_height: 200  # Height of the info panel in pixels
+  min_display_width: 640   # Minimum width for display
+  min_display_height: 480  # Minimum height for display
+
+model:
+  path: "models/best.pt"
+  confidence_threshold: 0.75
+  target_class: "player"
+
+lbp:
+  radius: 2
+  method: "uniform"
+  matching_threshold: 0.85  # Similarity threshold for cross-camera matching
+
+visualization:
+  font: "FONT_HERSHEY_SIMPLEX"
+  font_scale: 0.6
+  font_thickness: 2
+  tacticam_color: [0, 255, 0]  # Green for tacticam
+  broadcast_color: [255, 0, 0]  # Red for broadcast
+  box_thickness: 2
+  sync_frames: True  # Whether to sync frames between cameras

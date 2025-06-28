@@ -30,5 +30,6 @@ error_in_dataset_model
 id_mapper.py
 test.ipynb
 
-
-
+models
+datas
+venv
