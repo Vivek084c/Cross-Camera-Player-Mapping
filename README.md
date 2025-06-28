@@ -1,4 +1,5 @@
 # Cross-Camera Player Tracking System
+![alt text](image.png)
 
 ## Overview
 A computer vision system that detects and tracks players across multiple camera views (tacticam and broadcast) using YOLOv8 for player detection and Local Binary Patterns (LBP) for cross-camera player matching.
