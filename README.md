@@ -7,10 +7,9 @@ A computer vision system that detects and tracks players across multiple camera 
 ## Features
 - Dual-camera processing (tacticam + broadcast views)
 - Real-time player detection using YOLOv8
-- Player feature extraction using Local Binary Patterns (LBP)
+- Player feature extraction using Local Binary Patterns (LBP) and color HSV
 - Cross-camera player matching algorithm
 - Visualization with global player IDs
-- Data logging for analysis
 
 ## System Requirements
 - Python 3.8 or higher
