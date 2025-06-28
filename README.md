@@ -44,14 +44,13 @@ mkdir -p data/inputs models
 
 ## Place your video files in data/inputs/:
 ### tacticam.mp4 : link : https://drive.google.com/file/d/1zrgF_EIPd2NjR3K3D6Z3ldBRnHINHweE/view?usp=sharing
-### broadcast.mp4 : link : https://drive.google.com/file/d/1-SoEHJ1dnaFzoRmksSn8vMDFEn3kmEeY/view?usp=sharing
-
+### broadcast.mp4 : link : https://drive.google.com/file/d/1eYfoBv26CZUBKF0fGs8aqztfsm4ImAsm/view?usp=sharing
 
 ### 4.Prepare model 
 ```bash
 mkdir -p models
 ```
-### Place your YOLO model (best.pt) link : https://drive.google.com/file/d/1eYfoBv26CZUBKF0fGs8aqztfsm4ImAsm/view?usp=sharing-> in models/
+### Place your YOLO model (best.pt) link : https://drive.google.com/file/d/1-SoEHJ1dnaFzoRmksSn8vMDFEn3kmEeY/view?usp=sharing -> in models/
 
 ### Edit the config/config.yaml as per structure
 
