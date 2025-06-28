@@ -1,5 +1,35 @@
+#experinmenting data and model
+yolov8s.pt
+yolov8x-pose.pt
+test.ipynb
 data
+dataset
 model
 saved_frames
 saved_frames_tacticam_1
 saved_frames_tacticam_2
+convert.py
+main.py
+id_mapper.py
+temmp.py
+
+#test data
+output_cross_camera_mapping
+output_cross_camera_mapping_hybrid
+output_cross_camera_mapping_hybrid_ensemble_osnet_ibn
+output_cross_camera_mapping_hybrid_osnet_mean
+saved_LBP_broadcast
+saved_LBP_HSV_broadcast
+saved_LBP_HSV_tacticam
+saved_LBP_tacticam
+saved_transreid_embeddings_broadcast
+saved_transreid_embeddings_tacticam
+error_in_dataset_model
+
+#test code
+id_mapper.py
+test.ipynb
+
+
+#main dir
+cross_camera_mapping
